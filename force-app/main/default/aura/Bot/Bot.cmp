@@ -1,7 +1,7 @@
 <aura:component implements="flexipage:availableForAllPageTypes" controller="BotController" >
 
     <aura:attribute name="question" type="String" default=""/>
-    <aura:attribute name="messages" type="Object[]"/>
+    <aura:attribute name="messages" type="Object[]" description="messages to display"/>
     <aura:attribute name="session" type="Array"/>
     <aura:attribute name="height" type="String" default="500px"/>
 	<aura:attribute name="files" type="Object[]"/>
